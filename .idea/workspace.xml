@@ -4,10 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="808b8ee7-53e8-46b1-9c54-f5146e4dc375" name="Changes" comment="3_commit">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/conftest.py" beforeDir="false" afterPath="$PROJECT_DIR$/conftest.py" afterDir="false" />
-    </list>
+    <list default="true" id="808b8ee7-53e8-46b1-9c54-f5146e4dc375" name="Changes" comment="4_commit" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -32,6 +29,7 @@
   &quot;associatedIndex&quot;: 5
 }</component>
   <component name="ProjectId" id="2iS8rWIIhIWRIVkcxIwfgyfFuv0" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -39,6 +37,7 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "Python tests.Python tests for conftest.test_checking_folder.executor": "Run",
+    "Python tests.Python tests for conftest.test_create_archive.executor": "Run",
     "Python.conftest.executor": "Run",
     "Python.script_os.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
@@ -155,7 +154,15 @@
       <option name="project" value="LOCAL" />
       <updated>1719473631326</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="4_commit">
+      <option name="closed" value="true" />
+      <created>1719491818423</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1719491818423</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -173,6 +180,7 @@
     <MESSAGE value="firs_commit" />
     <MESSAGE value="2_commit" />
     <MESSAGE value="3_commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="3_commit" />
+    <MESSAGE value="4_commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="4_commit" />
   </component>
 </project>
