@@ -1,8 +1,6 @@
 import os
 import zipfile
-import pytest
 
-import files
 from script_os import CURRENT_DIRECTORY, FILES_DIR, FOLDER_DIR
 
 folder_name = 'my_folder'
