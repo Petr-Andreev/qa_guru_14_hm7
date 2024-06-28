@@ -1,12 +1,12 @@
 import csv
 import zipfile
-from zipfile import ZipFile
 from openpyxl import load_workbook
 from pypdf import PdfReader
+from script_os import ZIP_DIR
 
 
 def test_read_xlsx_file():
-    with ZipFile('resource/my_archive.zip', 'r') as zip_file:
+    with zipfile.ZipFile(ZIP_DIR, 'r') as zip_file:
         with zip_file.open("file_example_XLSX_50.xlsx") as excel_file:
             wb = load_workbook(filename=excel_file)
             sheet = wb.active
@@ -17,7 +17,7 @@ def test_read_xlsx_file():
 
 
 def test_csv():
-    with zipfile.ZipFile('resource/my_archive.zip', 'r') as zip_file:
+    with zipfile.ZipFile(ZIP_DIR, 'r') as zip_file:
         with zip_file.open("import_empl_csv.csv") as csv_file:
             content = csv_file.read().decode(
                 'utf-8-sig')  # читаем содержимое файла и декодируем его если в файле есть символы не из английского алфавита
@@ -33,7 +33,7 @@ def test_csv():
 
 
 def test_read_pdf_file():
-    with ZipFile('resource/my_archive.zip', 'r') as zip_file:
+    with zipfile.ZipFile(ZIP_DIR, 'r') as zip_file:
         with zip_file.open("python_testing_with_pytest.pdf") as pdf_file:
             reader = PdfReader(pdf_file)
             page = reader.pages[1]  # получаем первую страницу
