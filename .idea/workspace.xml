@@ -4,11 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="808b8ee7-53e8-46b1-9c54-f5146e4dc375" name="Changes" comment="finish">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/script_os.py" beforeDir="false" afterPath="$PROJECT_DIR$/script_os.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/test_files.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/test_files.py" afterDir="false" />
+    <list default="true" id="808b8ee7-53e8-46b1-9c54-f5146e4dc375" name="Changes" comment="4_commit">
+      <change beforePath="$PROJECT_DIR$/conftest.py" beforeDir="false" afterPath="$PROJECT_DIR$/conftest.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,34 +36,20 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Python tests.Python tests for conftest.test_checking_folder.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests for conftest.test_create_archive.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests for test_files.test_first.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests for test_files.test_read_pdf_file.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests for test_files.test_read_zip_file.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests in 123.py.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests in test_files.py.executor&quot;: &quot;Run&quot;,
-    &quot;Python.123 (1).executor&quot;: &quot;Run&quot;,
-    &quot;Python.123.executor&quot;: &quot;Run&quot;,
-    &quot;Python.conftest (1).executor&quot;: &quot;Run&quot;,
-    &quot;Python.conftest.executor&quot;: &quot;Run&quot;,
-    &quot;Python.script_os.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/WS_STO/Desktop/QA_GURU/qa_guru_14_hm7&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Python tests.Python tests for conftest.test_checking_folder.executor": "Run",
+    "Python tests.Python tests for conftest.test_create_archive.executor": "Run",
+    "Python.conftest.executor": "Run",
+    "Python.script_os.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "main",
+    "last_opened_file_path": "C:/Users/WS_STO/Desktop/QA_GURU/qa_guru_14_hm7",
+    "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable"
   }
-}</component>
-  <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\WS_STO\Desktop\QA_GURU\qa_guru_14_hm7" />
-      <recent name="C:\Users\WS_STO\Desktop\QA_GURU\qa_guru_14_hm7\tests" />
-    </key>
-  </component>
-  <component name="RunManager" selected="Python tests.Python tests for test_files.test_read_pdf_file">
-    <configuration name="123 (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+}]]></component>
+  <component name="RunManager" selected="Python tests.Python tests for conftest.test_checking_folder">
+    <configuration name="conftest" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="qa_guru_14_hm7" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -79,7 +62,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/123.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/conftest.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -88,7 +71,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="123" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="script_os" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="qa_guru_14_hm7" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -97,11 +80,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tests" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/tests/123.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/script_os.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -110,7 +93,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="Python tests for 123.test_csv" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+    <configuration name="Python tests for conftest.test_checking_folder" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="qa_guru_14_hm7" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -121,47 +104,15 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;123.test_csv&quot;" />
-      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
-      <method v="2" />
-    </configuration>
-    <configuration name="Python tests for test_files.test_first" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
-      <module name="qa_guru_14_hm7" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tests" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_files.test_first&quot;" />
-      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
-      <method v="2" />
-    </configuration>
-    <configuration name="Python tests for test_files.test_read_pdf_file" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
-      <module name="qa_guru_14_hm7" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tests" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_files.test_read_pdf_file&quot;" />
+      <option name="_new_target" value="&quot;conftest.test_checking_folder&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python tests.Python tests for test_files.test_read_pdf_file" />
-        <item itemvalue="Python.123" />
-        <item itemvalue="Python.123 (1)" />
-        <item itemvalue="Python tests.Python tests for test_files.test_first" />
-        <item itemvalue="Python tests.Python tests for 123.test_csv" />
+        <item itemvalue="Python tests.Python tests for conftest.test_checking_folder" />
+        <item itemvalue="Python.conftest" />
+        <item itemvalue="Python.script_os" />
       </list>
     </recent_temporary>
   </component>
@@ -221,23 +172,7 @@
       <option name="project" value="LOCAL" />
       <updated>1719491984122</updated>
     </task>
-    <task id="LOCAL-00006" summary="5_commit">
-      <option name="closed" value="true" />
-      <created>1719492289377</created>
-      <option name="number" value="00006" />
-      <option name="presentableId" value="LOCAL-00006" />
-      <option name="project" value="LOCAL" />
-      <updated>1719492289377</updated>
-    </task>
-    <task id="LOCAL-00007" summary="finish">
-      <option name="closed" value="true" />
-      <created>1719505426777</created>
-      <option name="number" value="00007" />
-      <option name="presentableId" value="LOCAL-00007" />
-      <option name="project" value="LOCAL" />
-      <updated>1719505426777</updated>
-    </task>
-    <option name="localTasksCounter" value="8" />
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -256,8 +191,6 @@
     <MESSAGE value="2_commit" />
     <MESSAGE value="3_commit" />
     <MESSAGE value="4_commit" />
-    <MESSAGE value="5_commit" />
-    <MESSAGE value="finish" />
-    <option name="LAST_COMMIT_MESSAGE" value="finish" />
+    <option name="LAST_COMMIT_MESSAGE" value="4_commit" />
   </component>
 </project>
